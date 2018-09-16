@@ -24,7 +24,7 @@ export default class AnimalForm extends Component {
             const animal = {
                 name: this.state.animalName,
                 breed: this.state.breed,
-                employeeId: this.props.employees.find(e => e.name === this.state.employee).id
+                employeeId: this.props.employees.find(e => e.employeeName === this.state.employee).id
             }
 
             // create the animal and redirect user to animal list
@@ -48,7 +48,7 @@ export default class AnimalForm extends Component {
                         <label htmlFor="employee">Assign to caretaker</label>
                         <select defaultValue="" name="employee" id="employee" onChange={this.handleFieldChange}><option value="">Select an employee</option>
                         {
-                            this.props.employees.map(e => <option key={e.id} id={e.id}>{e.name}</option>)
+                            this.props.employees.map(e => <option key={e.id} id={e.id}>{e.employeeName}</option>)
                         }
                         </select>
                     </div>

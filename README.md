@@ -8,6 +8,7 @@ Following the [new tutorial series](https://github.com/nashville-software-school
 * [Searching Data](https://github.com/nashville-software-school/client-side-mastery/blob/master/book-4-the-apprentice/chapters/REACT_INITIAL_STATE.md)
 * [Abstract Artist](https://github.com/nashville-software-school/client-side-mastery/blob/master/book-4-the-apprentice/chapters/API_MODULES.md)
 * [Editing Animals](https://github.com/nashville-software-school/client-side-mastery/blob/master/book-4-the-apprentice/chapters/REACT_FORMS.md)
+* [Remember Me](https://github.com/nashville-software-school/client-side-mastery/blob/master/book-4-the-apprentice/chapters/REACT_CONDITIONAL_RENDERING.md)
 
 ## To Run
 
