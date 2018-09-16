@@ -1,19 +1,27 @@
 {
   "employees": [{
       "id": 1,
-      "name": "Jessica Younker"
+      "employeeName": "Jessica Younker",
+      "employeePhone": "(111)111-1111",
+      "employeeLocationId": 1
     },
     {
       "id": 2,
-      "name": "Jordan Nelson"
+      "employeeName": "Jordan Nelson",
+      "employeePhone": "(111)111-1111",
+      "employeeLocationId": 1
     },
     {
       "id": 3,
-      "name": "Zoe LeBlanc"
+      "employeeName": "Zoe LeBlanc",
+      "employeePhone": "(111)111-1111",
+      "employeeLocationId": 2
     },
     {
       "id": 4,
-      "name": "Blaise Roberts"
+      "employeeName": "Blaise Roberts",
+      "employeePhone": "(111)111-1111",
+      "employeeLocationId": 2
     }
   ],
   "locations": [{
@@ -29,63 +37,69 @@
   ],
   "animals": [{
       "id": 1,
-      "name": "Doodles"
+      "name": "Doodles",
+      "employeeId": 1
     },
     {
       "id": 2,
-      "name": "Jack"
+      "name": "Jack",
+      "employeeId": 2
     },
     {
       "id": 3,
-      "name": "Angus"
+      "name": "Angus",
+      "employeeId": 3
     },
     {
       "id": 4,
-      "name": "Henley"
+      "name": "Henley",
+      "employeeId": 4
     },
     {
       "id": 5,
-      "name": "Derkins"
+      "name": "Derkins",
+      "employeeId": 1
     },
     {
       "id": 6,
-      "name": "Checkers"
+      "name": "Checkers",
+      "employeeId": 2
     }
   ],
   "owners": [{
       "id": 1,
-      "phone": "(615)555-5555",
-      "name": "Melanie"
+      "ownerPhone": "(615)555-5555",
+      "ownerName": "Melanie"
     },
     {
       "id": 2,
-      "phone": "(615)111-1111",
-      "name": "Ralph"
+      "ownerPhone": "(615)111-1111",
+      "ownerName": "Ralph"
     },
     {
       "id": 3,
-      "phone": "(615)222-2222",
-      "name": "Frank"
+      "ownerPhone": "(615)222-2222",
+      "ownerName": "Frank"
     },
     {
       "id": 4,
-      "phone": "(615)333-3333",
-      "name": "Anton"
+      "ownerPhone": "(615)333-3333",
+      "ownerName": "Anton"
     },
     {
       "id": 5,
-      "phone": "(615)444-4444",
-      "name": "Dexter"
+      "ownerPhone": "(615)444-4444",
+      "ownerName": "Dexter"
     },
     {
       "id": 6,
-      "phone": "(615)666-6666",
-      "name": "Jennifer"
+      "ownerPhone": "(615)666-6666",
+      "ownerName": "Jennifer"
     },
     {
       "id": 7,
-      "phone": "(615)555-5555",
-      "name": "Harley"
+      "ownerPhone": "(615)555-5555",
+      "ownerName": "Harley"
     }
   ],
   "animalOwners": [{

@@ -12,8 +12,9 @@ export default class EmployeeDetail extends Component {
                     <div className="card-body">
                         <h4 className="card-title">
                             <img src={person} className="icon--person" />
-                            {employee.name}
+                            {employee.employeeName}
                         </h4>
+                        <p>{employee.employeePhone}</p>
                         <a href="#" onClick={() => this.props.fireEmployee(employee.id).then(() => this.props.history.push("/employees"))} className="card-link">Fire Employee</a>
                     </div>
                 </div>

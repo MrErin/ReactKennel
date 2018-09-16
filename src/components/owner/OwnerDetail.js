@@ -12,10 +12,10 @@ export default class OwnerDetail extends Component {
                     <div className="card-body">
                         <h4 className="card-title">
                             <img src={person} className="icon--person" />
-                            {owner.name}
-                            {owner.phone}
+                            {owner.ownerName}
                         </h4>
-                        <a href="#" onClick={() => this.props.dismissOwner(owner.id).then(() => this.props.history.push("/employees"))} className="card-link">Dismiss Owner</a>
+                        <p>{owner.ownerPhone}</p>
+                        <a href="#" onClick={() => this.props.dismissOwner(owner.id).then(() => this.props.history.push("/owners"))} className="card-link">Dismiss Owner</a>
                     </div>
                 </div>
             </section>
